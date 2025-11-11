@@ -5,11 +5,9 @@ import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa6";
 import Button from "./Button";
 const Banner = () => {
-  console.log(banner.imageBg);
-
   return (
     <div
-      className="bg-cover no-repeat py-20 text-white bg-amber-400"
+      className="bg-cover no-repeat py-20 text-white"
       style={{ backgroundImage: `url(${banner.imageBg.src})` }}>
       <Container>
         <div className="grid grid-cols-4 grid-rows-1 gap-4 items-center justify-center">
